@@ -34,3 +34,6 @@ yarn-error.log*
 *.tmp
 *.sql
 *.log
+# Allow DB schema only
+!database/
+!database/schema.sql
