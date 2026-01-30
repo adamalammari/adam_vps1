@@ -1,0 +1,55 @@
+name: flutter_chat_products
+description: A Flutter chat and products application with real-time messaging
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+
+  # Network
+  dio: ^5.4.0
+  web_socket_channel: ^2.4.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  path_provider: ^2.1.1
+
+  # Media
+  image_picker: ^1.0.5
+  video_player: ^2.8.1
+  cached_network_image: ^3.3.0
+
+  # UI
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+
+  # URL Launcher (for WhatsApp links)
+  url_launcher: ^6.2.2
+
+  # UUID Generator
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment if you add assets later
+  # assets:
+  #   - assets/images/

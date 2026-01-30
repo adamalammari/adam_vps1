@@ -1,0 +1,13 @@
+{
+    "name": "flutter-chat/ws-server",
+    "description": "WebSocket server for real-time chat using Workerman",
+    "require": {
+        "php": ">=7.0",
+        "workerman/workerman": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WsServer\\": "src/"
+        }
+    }
+}

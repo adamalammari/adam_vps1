@@ -1,0 +1,36 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# PHP / Laravel / Filament
+vendor/
+.env
+.env.backup
+.env.production
+composer.lock
+storage/*.key
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# General
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
+*.sql
+*.log
